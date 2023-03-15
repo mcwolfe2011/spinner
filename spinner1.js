@@ -3,7 +3,7 @@ let phrase = "Oh yes, it is totally okey.";
 const spinner1 = function(letters) {
   for (let letter of letters) {
     setTimeout(() => {
-      process.stdout.write(`\r| ${letter}  `);
+      process.stdout.write(`\r| ${letter} `);
     }, 100);
 
 
